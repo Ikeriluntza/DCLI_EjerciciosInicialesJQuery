@@ -11,6 +11,16 @@ var contador = 0;
     $('#divjuego').css("display", "block");
   });
   
+  $('#comprobar').click(function(){
+	    var numEscrito = parseInt($('#miNumero').val());
   
+	    if (numEscrito == numaleat){
+	    	alert("Numero correcto");
+	    }else{
+	    	alert("Numero incorrecto");
+	    }
+  
+  
+  });
 
 
