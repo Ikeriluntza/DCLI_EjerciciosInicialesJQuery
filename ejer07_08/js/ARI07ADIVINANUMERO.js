@@ -1,6 +1,8 @@
 var numero = Math.round(Math.random() * 50);
 var contador = 0;
 
+//Generar num
+
 $('#generarNum').click(function() {
 	alert("Tu numero es: " + numero);
 	$('#divjuego').show();
