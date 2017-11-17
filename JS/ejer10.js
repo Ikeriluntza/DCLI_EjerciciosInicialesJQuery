@@ -5,11 +5,8 @@ $('#formutabla').submit(function(evento) {
 		"columnas" : $('#columnas').val(),
 		"titulo" : $('#titulo').val()
 	}
-
-	alert(json);
+	
 	var cadena = JSON.stringify(json);
-	alert(cadena);
-
 	localStorage.setItem('tabla', cadena)
 
 });
